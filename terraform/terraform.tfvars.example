@@ -1,0 +1,9 @@
+environment = "dev"
+region      = "us-east-1"
+
+# Cambiar por una contrasena segura. Idealmente exportala como variable
+# de entorno y usa:  TF_VAR_db_password=... terraform plan
+db_password = "cambiar-por-una-contrasena-segura"
+
+# Tag de la imagen desplegada (debe existir en ECR)
+# app_version = "latest"
